@@ -14,7 +14,7 @@ const port = process.env.PORT || 3400;
 
 // process.on('uncaughtException', (ex) => {
 //     console.error('EX: ', ex.message)
-// });
+// }); ///
 
 const server = app.listen(port, () => {
      winston.info(`listening on port ${ port }..........`);
