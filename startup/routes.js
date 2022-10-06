@@ -11,7 +11,7 @@ const uploads = require("../routes/uploads");
 const error = require("../middleware/error");
 const express = require("express"); 
 const imageupload = require("express-fileupload");
-const formidable = require("express-formidable");
+
 
 module.exports = function (app) {
   app.use(express.json());
@@ -26,7 +26,6 @@ module.exports = function (app) {
   app.use("/api/returns", returns);
   app.use("/api/auth", auth);
   app.use("/api/posts", posts);
-  app.use(formidable());
   app.use(imageupload());
   app.use("/api/uploads", uploads);
   //logging error middleware in express

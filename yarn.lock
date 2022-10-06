@@ -1490,13 +1490,6 @@
   dependencies:
     "busboy" "^1.6.0"
 
-"express-formidable@^1.2.0":
-  "integrity" "sha512-w1vXjF3gb50UKTNkFaW8/4rqY4dUrKfZ1sAZzwAF9YxCAgj/29QZsycf71di0GkskrZOAkubk9pvGYfxyAMYiw=="
-  "resolved" "https://registry.npmjs.org/express-formidable/-/express-formidable-1.2.0.tgz"
-  "version" "1.2.0"
-  dependencies:
-    "formidable" "^1.0.17"
-
 "express@^4.16.2", "express@^4.17.1":
   "integrity" "sha512-mHJ9O79RqluphRrcw2X/GTh3k9tVv8YcoyY4Kkh4WDMUYKRZUq0h1o0w2rrrxBqM7VoeUVqgb27xlEMXTnYt4g=="
   "resolved" "https://registry.npmjs.org/express/-/express-4.17.1.tgz"
@@ -1611,7 +1604,7 @@
     "combined-stream" "^1.0.8"
     "mime-types" "^2.1.12"
 
-"formidable@^1.0.17", "formidable@^1.2.2":
+"formidable@^1.2.2":
   "integrity" "sha512-V8gLm+41I/8kguQ4/o1D3RIHRmhYFG4pnNyonvua+40rqcEmT4+V71yaZ3B457xbbgCsCfjSPi65u/W6vK1U5Q=="
   "resolved" "https://registry.npmjs.org/formidable/-/formidable-1.2.2.tgz"
   "version" "1.2.2"

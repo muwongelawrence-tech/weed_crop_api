@@ -4,9 +4,6 @@
 // const fs = require("fs");
 // const path = require("path");
 const express = require("express");
-// const app = express();
-// const imageupload = require("express-fileupload");
-// app.use(imageupload());
 const router = express.Router();
 
 
@@ -50,6 +47,7 @@ router.post("/", (req, res) => {
  if(req.files) {
   
   console.log(req.files);
+  
   res.send("image uploaded successfully");
 }
 else{
