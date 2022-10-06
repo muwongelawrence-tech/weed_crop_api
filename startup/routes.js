@@ -25,8 +25,8 @@ module.exports = function (app) {
   app.use("/api/users", users);
   app.use("/api/returns", returns);
   app.use("/api/auth", auth);
-  app.use("/api/posts", posts);
   app.use(imageupload());
+  app.use("/api/posts", posts);
   app.use("/api/uploads", uploads);
   //logging error middleware in express
    app.use(error);
