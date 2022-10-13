@@ -27,7 +27,7 @@ module.exports = function (app) {
   app.use("/api/auth", auth);
   // app.use(imageupload());
   app.use("/api/posts", posts);
-  // using multer to upload images.
+  // using multer to upload images..
   app.use("/api/uploads", uploads);
   //logging error middleware in express
    app.use(error);
