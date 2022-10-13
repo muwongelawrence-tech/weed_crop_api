@@ -1,62 +1,104 @@
-//const validateObjectId = require("../middleware/validateObjectId");
-// const multer = require("multer");
-// const mongoose = require("mongoose");
-// const fs = require("fs");
-// const path = require("path");
+const validateObjectId = require("../middleware/validateObjectId");
+const multer = require("multer");
+const mongoose = require("mongoose");
+const Joi = require("joi");
+const fs = require("fs");
+const path = require("path");
 const express = require("express");
 const router = express.Router();
 
+// working with an image
+const imageSchema = mongoose.Schema({
+  title : {
+    type:String,
+    required:true,
+    minlength:5,
+    maxlength:50
+  },
 
-
-// // working with an image
-// const imageSchema = mongoose.Schema({
-//   image: { data: Buffer, contentType: String },
-// }, { timestamps: true });
-
-// const ImageModel = mongoose.model('Image', imageSchema);
-
-// let storage = multer.memoryStorage();
-
-// const upload = multer({ storage: storage , limits: { fileSize: 2000000 } });
-
-
-
-router.get("/", (req, res) => {
-
-    res.send([1,2,3]);
-});
-
-// image upload using multer
-// router.post("/", upload.single("image"), async (req, res) => {
-
-// const image = {
-//     data: new Buffer.from(req.file.buffer, "base64"),
-//     contentType: req.file.mimetype,
-// };
-
-// const savedImage = await ImageModel.create(image);
-// res.send(savedImage);
-
-// });
-
-
-router.post("/", (req, res) => {
-  
-  console.log(" --------------route handler for the image upload-------------");
-
- if(req.files) {
-  
-  console.log(req.files);
-  
-  res.send("image uploaded successfully");
-}
-else{
-  console.log("-----file not uploaded sucessfuly----------------------------");
-}
+  feedback : {
+      type:String,
+      required:true,
+      minlength:5,
+      maxlength:100
+  },
  
-  
+  confidence :{
+       type:String,
+       required: true,
+
+  },
+
+  image: {
+    type: String
+  },
 });
 
+const DetectionModel = mongoose.model('Detection', imageSchema);
+
+function validatePost(post){
+
+  const schema = {
+      title: Joi.string().min(5).max(50),
+      feedback:Joi.string().min(5).max(100),
+      confidence: Joi.string(),
+
+
+   };
+
+   return result = Joi.validate(post, schema);
+}
+
+
+var storage = multer.diskStorage({      
+  destination: function (req, file, cb) {        
+  cb(null, 'public')      
+  },   
+       
+  filename: function (req, file, cb) {        
+  cb(null, new Date().toISOString() + file.originalname  
+  )      
+  }    
+});
+
+const upload = multer({
+  storage: storage
+});
+
+
+//getting all posts
+router.get("/", async (req, res) => {
+  const uploads = await DetectionModel.find();
+  res.send(uploads);
+});
+
+// posting the requests.
+router.post('/', upload.single('image'), async(req, res, next) => {
+
+  const { error } = validatePost(req.body);
+  if (error) return res.status(400).send(error.details[0].message);
+
+  const file = req.file   
+
+  if (!file) {        
+    console.log("file not picked ")
+  }  
+  else {
+
+    const detection = new DetectionModel({ 
+      title: req.body.title,
+      feedback: req.body.feedback,
+      confidence: req.body.confidence,         
+      image: file.path        
+    });
+
+    const feedback = await detection.save();
+    res.send(feedback);        
+  
+
+  }                  
+
+}); 
 
 
 module.exports = router;

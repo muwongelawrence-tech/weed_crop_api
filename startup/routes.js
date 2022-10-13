@@ -16,7 +16,7 @@ const imageupload = require("express-fileupload");
 module.exports = function (app) {
   app.use(express.json());
   app.use(express.static("public"));
-//app.use(express.urlencoded({ extended: true }));
+  // app.use('/uploads', express.static(__dirname +'/'));
   app.use("/", root);
   app.use("/api/genres", genres);
   app.use("/api/customers", customers);
@@ -25,8 +25,9 @@ module.exports = function (app) {
   app.use("/api/users", users);
   app.use("/api/returns", returns);
   app.use("/api/auth", auth);
-  app.use(imageupload());
+  // app.use(imageupload());
   app.use("/api/posts", posts);
+  // using multer to upload images.
   app.use("/api/uploads", uploads);
   //logging error middleware in express
    app.use(error);
