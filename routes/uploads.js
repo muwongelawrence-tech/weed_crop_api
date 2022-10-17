@@ -20,7 +20,7 @@ const imageSchema = mongoose.Schema({
       type:String,
       required:true,
       minlength:5,
-      maxlength:100
+      maxlength:500
   },
  
   confidence :{
@@ -40,7 +40,7 @@ function validatePost(post){
 
   const schema = {
       title: Joi.string().min(5).max(50),
-      feedback:Joi.string().min(5).max(100),
+      feedback:Joi.string().min(5).max(500),
       confidence: Joi.string(),
 
 
