@@ -29,6 +29,8 @@ const imageSchema = mongoose.Schema({
 
   },
 
+  date: { type: Date , default: Date.now },
+
   image: {
     type: String
   },
@@ -68,7 +70,7 @@ const upload = multer({
 
 //getting all posts
 router.get("/", async (req, res) => {
-  const uploads = await DetectionModel.find();
+  const uploads = await DetectionModel.find().sort({ date : -1 });
   res.send(uploads);
 });
 
