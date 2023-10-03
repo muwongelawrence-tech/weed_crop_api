@@ -34,8 +34,6 @@ function validateFeedback(Feedback){
         title: Joi.string().min(5).max(50),
         feedback:Joi.string().min(5).max(100),
         confidence: Joi.string(),
-
-
      };
  
      return result = Joi.validate(Feedback, schema);

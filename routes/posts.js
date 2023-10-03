@@ -3,13 +3,13 @@ const { Feedback, validateFeedback } = require("../models/feedback");
 const express = require("express");
 const router = express.Router();
 
-//getting all posts
+// Getting all posts
 router.get("/", async (req, res) => {
   const posts = await Feedback.find();
   res.send(posts);
 });
 
-//getting  a post  with a specific id
+// Getting  a post  with a specific id
 router.get("/:id", validateObjectId, async (req, res) => {
   const post = await Feedback.findById(req.params.id);
 
@@ -21,7 +21,7 @@ router.get("/:id", validateObjectId, async (req, res) => {
   res.send(post);
 });
 
-// posting requests or creating new resources
+// Posting requests
 
 router.post("/", async (req, res) => {
   //input validation using joi
@@ -47,7 +47,8 @@ router.post("/", async (req, res) => {
       contentType: req.files.image.mimetype,
     },
   });
-  //save feeback to the database
+
+  //Save feeback to the database...
   feeback = await feeback.save();
   res.send(feeback);
 });
