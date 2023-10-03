@@ -13,7 +13,7 @@ const feedbackSchema = new mongoose.Schema({
         type:String,
         required:true,
         minlength:5,
-        maxlength:100
+        maxlength:500
     },
    
     confidence :{
@@ -22,7 +22,7 @@ const feedbackSchema = new mongoose.Schema({
 
     },
     
-    image: { data: Buffer, contentType: String }
+    image: String
 });
 
 const Feedback =  mongoose.model("Feedback",feedbackSchema);
@@ -32,7 +32,7 @@ function validateFeedback(Feedback){
 
     const schema = {
         title: Joi.string().min(5).max(50),
-        feedback:Joi.string().min(5).max(100),
+        feedback:Joi.string().min(5).max(500),
         confidence: Joi.string(),
      };
  

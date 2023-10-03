@@ -3,7 +3,7 @@ const { Feedback, validateFeedback } = require("../models/feedback");
 const express = require("express");
 const router = express.Router();
 
-// Getting all posts
+// Getting all posts....
 router.get("/", async (req, res) => {
   const posts = await Feedback.find();
   res.send(posts);
@@ -21,18 +21,16 @@ router.get("/:id", validateObjectId, async (req, res) => {
   res.send(post);
 });
 
-// Posting requests
-
+// Posting requests..
 router.post("/", async (req, res) => {
-  //input validation using joi
+  // input validation using joi......
   const { error } = validateFeedback(req.body);
   if (error) return res.status(400).send(error.details[0].message);
 
   if (req.files) {
-    //  console.log(req.body);
-    //  console.log(req.files.image.data);
-    // res.send("image uploaded successfully");
+ 
   } else {
+
     console.log(
       "-----file not uploaded sucessfuly----------------------------"
     );
@@ -42,13 +40,10 @@ router.post("/", async (req, res) => {
     title: req.body.title,
     feedback: req.body.feedback,
     confidence: req.body.confidence,
-    image: {
-      data: req.files.image.data,
-      contentType: req.files.image.mimetype,
-    },
+    image: req.files.image.data,
   });
 
-  //Save feeback to the database...
+  // Save feeback to the database...
   feeback = await feeback.save();
   res.send(feeback);
 });

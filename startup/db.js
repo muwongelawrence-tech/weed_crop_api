@@ -1,8 +1,11 @@
+const winston = require("winston");
 const mongoose = require("mongoose");
 const config = require("config")
 
 module.exports = function(){
- // connecting to mongodb either atlas or campus.
+ // connecting to mongodb..
     const db = config.get("db");
-    mongoose.connect(db).then(() => console.log('connected to mongodb'));
+ mongoose.connect(db)
+ .then(() => winston.info(`connected to ${ db } ....`))
+ .catch(error => console.error("could not connect to Mongodb .....",error.message));
 }
