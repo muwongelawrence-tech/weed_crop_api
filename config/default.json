@@ -1,4 +1,4 @@
 {
     "jwtPrivateKey": "1234",
-    "db": "mongodb://localhost/weedcrop_classifier"
+    "db": "mongodb+srv://muwongelawrenceagric:Muwongeweeddetection@emotiondetection.knnlzoh.mongodb.net/?retryWrites=true&w=majority"
 }
