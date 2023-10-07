@@ -27,7 +27,7 @@ const upload = multer({
       cb(null, { fieldName: file.fieldname });
     },
     key: function (req, file, cb) {
-      cb(null, `weed_crop_detections/${shortId.generate()}-${file.originalname}`);
+      cb(null, `weed_crop_detections/${ shortId.generate() }-${ file.originalname }`);
     },
   }),
 });
@@ -60,12 +60,6 @@ router.post("/", upload.fields([
 
   const detection = req.files['image'][0].location;
 
-  if (!detection) {
-
-  } else {
-    res.send("No file is  picked...");
-  }
-
   let feeback = new Feedback({
     title: req.body.title,
     feedback: req.body.feedback,
@@ -73,9 +67,11 @@ router.post("/", upload.fields([
     image: detection,
   });
 
+
   // Save feeback to the database...
   feeback = await feeback.save();
   res.send(feeback);
+
 });
 
 module.exports = router;

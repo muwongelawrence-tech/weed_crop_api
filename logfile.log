@@ -48,3 +48,81 @@
 {"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-06T16:03:14.481Z"}
 {"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-06T16:03:26.904Z"}
 {"level":"info","message":"connected to mongodb+srv://muwongelawrenceagric:Muwongeweeddetection@emotiondetection.knnlzoh.mongodb.net/?retryWrites=true&w=majority ....","timestamp":"2023-10-06T16:03:51.197Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'image')","timestamp":"2023-10-06T16:14:48.123Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T02:31:10.630Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T02:31:22.276Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T02:31:25.719Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T02:31:29.651Z"}
+{"level":"info","message":"connected to mongodb+srv://muwongelawrenceagric:Muwongeweeddetection@emotiondetection.knnlzoh.mongodb.net/?retryWrites=true&w=majority ....","timestamp":"2023-10-07T02:31:58.675Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'image')","timestamp":"2023-10-07T02:39:08.173Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'image')","timestamp":"2023-10-07T02:39:09.899Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T02:40:35.708Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T02:40:49.105Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T02:40:53.153Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T02:40:55.083Z"}
+{"level":"info","message":"connected to mongodb+srv://muwongelawrenceagric:Muwongeweeddetection@emotiondetection.knnlzoh.mongodb.net/?retryWrites=true&w=majority ....","timestamp":"2023-10-07T02:41:23.905Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'image')","timestamp":"2023-10-07T02:41:35.357Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T02:43:01.930Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T02:43:11.532Z"}
+{"level":"info","message":"connected to mongodb+srv://muwongelawrenceagric:Muwongeweeddetection@emotiondetection.knnlzoh.mongodb.net/?retryWrites=true&w=majority ....","timestamp":"2023-10-07T02:43:40.141Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T02:43:59.957Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T02:44:02.424Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T02:44:04.063Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T02:44:08.620Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T02:44:12.408Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T02:44:14.019Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T02:44:18.053Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T02:44:25.008Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T02:44:27.620Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T02:44:32.426Z"}
+{"level":"info","message":"connected to mongodb+srv://muwongelawrenceagric:Muwongeweeddetection@emotiondetection.knnlzoh.mongodb.net/?retryWrites=true&w=majority ....","timestamp":"2023-10-07T02:45:02.665Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '0')","timestamp":"2023-10-07T02:47:12.047Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:09:53.441Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:10:47.452Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:10:58.239Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:11:00.345Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:11:05.137Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '0')","timestamp":"2023-10-07T03:11:12.499Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:11:40.335Z"}
+{"level":"info","message":"connected to mongodb+srv://muwongelawrenceagric:Muwongeweeddetection@emotiondetection.knnlzoh.mongodb.net/?retryWrites=true&w=majority ....","timestamp":"2023-10-07T03:12:10.538Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '0')","timestamp":"2023-10-07T03:12:21.362Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '0')","timestamp":"2023-10-07T03:12:23.160Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:13:07.257Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:13:11.876Z"}
+{"level":"info","message":"connected to mongodb+srv://muwongelawrenceagric:Muwongeweeddetection@emotiondetection.knnlzoh.mongodb.net/?retryWrites=true&w=majority ....","timestamp":"2023-10-07T03:13:40.864Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:15:38.733Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:15:43.313Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:15:46.109Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:15:48.682Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:15:59.017Z"}
+{"level":"info","message":"connected to mongodb+srv://muwongelawrenceagric:Muwongeweeddetection@emotiondetection.knnlzoh.mongodb.net/?retryWrites=true&w=majority ....","timestamp":"2023-10-07T03:16:28.795Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:17:40.986Z"}
+{"level":"info","message":"connected to mongodb+srv://muwongelawrenceagric:Muwongeweeddetection@emotiondetection.knnlzoh.mongodb.net/?retryWrites=true&w=majority ....","timestamp":"2023-10-07T03:18:10.169Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'length')","timestamp":"2023-10-07T03:18:38.245Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:20:47.128Z"}
+{"level":"info","message":"connected to mongodb+srv://muwongelawrenceagric:Muwongeweeddetection@emotiondetection.knnlzoh.mongodb.net/?retryWrites=true&w=majority ....","timestamp":"2023-10-07T03:21:15.918Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:22:47.058Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:22:49.426Z"}
+{"level":"info","message":"connected to mongodb+srv://muwongelawrenceagric:Muwongeweeddetection@emotiondetection.knnlzoh.mongodb.net/?retryWrites=true&w=majority ....","timestamp":"2023-10-07T03:23:18.385Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:23:40.223Z"}
+{"level":"info","message":"connected to mongodb+srv://muwongelawrenceagric:Muwongeweeddetection@emotiondetection.knnlzoh.mongodb.net/?retryWrites=true&w=majority ....","timestamp":"2023-10-07T03:24:09.381Z"}
+{"level":"error","message":"detection is not defined","timestamp":"2023-10-07T03:24:14.759Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:24:26.759Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:24:30.527Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '0')","timestamp":"2023-10-07T03:24:48.093Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:24:58.096Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:25:00.224Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:25:05.616Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:25:08.522Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:25:33.124Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:25:36.512Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:25:40.636Z"}
+{"level":"error","message":"Region is missing","timestamp":"2023-10-07T03:26:07.499Z"}
+{"level":"info","message":"connected to mongodb+srv://muwongelawrenceagric:Muwongeweeddetection@emotiondetection.knnlzoh.mongodb.net/?retryWrites=true&w=majority ....","timestamp":"2023-10-07T03:26:09.594Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:27:09.292Z"}
+{"level":"info","message":"connected to mongodb+srv://muwongelawrenceagric:Muwongeweeddetection@emotiondetection.knnlzoh.mongodb.net/?retryWrites=true&w=majority ....","timestamp":"2023-10-07T03:27:46.755Z"}
+{"level":"error","message":"Region is missing","timestamp":"2023-10-07T03:29:22.067Z"}
+{"level":"error","message":"Region is missing","timestamp":"2023-10-07T03:31:06.145Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:32:34.788Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:32:36.834Z"}
+{"level":"info","message":"connected to mongodb+srv://muwongelawrenceagric:Muwongeweeddetection@emotiondetection.knnlzoh.mongodb.net/?retryWrites=true&w=majority ....","timestamp":"2023-10-07T03:33:05.465Z"}
