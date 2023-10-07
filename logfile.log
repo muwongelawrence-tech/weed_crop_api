@@ -126,3 +126,12 @@
 {"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:32:34.788Z"}
 {"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:32:36.834Z"}
 {"level":"info","message":"connected to mongodb+srv://muwongelawrenceagric:Muwongeweeddetection@emotiondetection.knnlzoh.mongodb.net/?retryWrites=true&w=majority ....","timestamp":"2023-10-07T03:33:05.465Z"}
+{"level":"error","message":"Region is missing","timestamp":"2023-10-07T03:43:18.973Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:45:29.647Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:45:37.363Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T03:45:43.701Z"}
+{"level":"error","message":"Region is missing","timestamp":"2023-10-07T03:46:12.569Z"}
+{"level":"info","message":"connected to mongodb+srv://muwongelawrenceagric:Muwongeweeddetection@emotiondetection.knnlzoh.mongodb.net/?retryWrites=true&w=majority ....","timestamp":"2023-10-07T03:46:12.925Z"}
+{"level":"error","message":"Region is missing","timestamp":"2023-10-07T04:18:44.116Z"}
+{"level":"info","message":"listening on port 3400..........","timestamp":"2023-10-07T04:19:03.147Z"}
+{"level":"info","message":"connected to mongodb+srv://muwongelawrenceagric:Muwongeweeddetection@emotiondetection.knnlzoh.mongodb.net/?retryWrites=true&w=majority ....","timestamp":"2023-10-07T04:19:32.191Z"}

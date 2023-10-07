@@ -59,7 +59,7 @@ router.post("/", upload.fields([
   if (error) return res.status(400).send(error.details[0].message);
 
   const detection = req.files['image'][0].location;
-
+  
   let feeback = new Feedback({
     title: req.body.title,
     feedback: req.body.feedback,
